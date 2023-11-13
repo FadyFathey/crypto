@@ -33,7 +33,7 @@ const Featured = () => {
           data.map((e) => (
             <div className="right">
               <div key={e} className="top">
-                <img src={e.image} alt="" />
+                <img src={e.image} alt="api img" />
               </div>
               <div>
                 <h5>{e.name}</h5>
